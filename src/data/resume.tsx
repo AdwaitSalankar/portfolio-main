@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "I am a pre-final year Computer Science (Data Science) student, passionate about Software Development and Machine Learning.",
   summary:
-    "Tech Enthusiast with expertise in **Java**, **Python**, **AI/ML**, **Data Structures** & **Algorithms**. Currently, I am pursuing a degree in **Computer Science**, and freelanced at few startups at **Bangalore** and **Singapore**. I enjoy building innovative solutions and tackling real-world problems. I have Contest Rating of **1629** at **Leetcode** and **2 star** at **Codechef**. Apart from coding, I'm a pro footballer and a passionate canvas painter. Get my resume [here](https://drive.google.com/drive/folders/15ojwIkj0H8xJLS9IUMQe6Lk0zd9BxCG0?usp=drive_link).",
+    "Tech Enthusiast with expertise in **Java**, **Python**, **AI/ML**, **Data Structures** & **Algorithms**. Currently, I am pursuing a degree in **Computer Science**, and freelanced at few startups at **Bangalore** and **Singapore**. I enjoy building innovative solutions and tackling real-world problems. I have Contest Rating of **1629** at **Leetcode** and **2 star** at **Codechef**. I am **AWS [Certified](https://cp.certmetrics.com/amazon/en/public/verify/credential/2926bbb0fc834b8796fffda1a99ad03a) Cloud Practitioner** in July 2025. Apart from coding, I'm a pro footballer and a passionate canvas painter. Get my resume [here](https://drive.google.com/drive/folders/15ojwIkj0H8xJLS9IUMQe6Lk0zd9BxCG0?usp=drive_link).",
   avatarUrl: "/me.JPG",
   skills: [
     "Java",
@@ -64,19 +64,26 @@ export const DATA = {
 
         navbar: false,
       },
+      Bento: {
+        name: "Bento",
+        url: "https://bento.me/adwaitsalankar",
+        icon: Icons.globe,
+
+        navbar: true,
+      },
     },
   },
 
   work: [
     {
-      company: "GlobNX",
+      company: "Freelance",
       href: "https://globnx.com/",
       badges: [],
       location: "Remote",
       title: "Software Engineer Intern",
       logoUrl: "/GlobNX.png",
       start: "May 2025",
-      end: "present",
+      end: "July 2025",
       description:
         "Working on developing applications to identify, measure, and manage risks across balance sheets to create a holistic view of assets and liabilities.",
     },
@@ -116,6 +123,37 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Live Canvas",
+      href: "https://livecanvas-collab.vercel.app/",
+      dates: "Mar 2025 - April 2025",
+      active: true,
+      description:
+        "Developed a real-time collaborative whiteboard platform integrating Tesseract OCR, with high accuracy.",
+      technologies: [
+        "Node.js",
+        "React.js",
+        "Next.js",
+        "Socket.io",
+        "Express.js",
+        "Tesseract OCR",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://livecanvas-collab.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/AdwaitSalankar/Live-Canvas",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/canvas.png",
+      video:
+        "",
+    },
     {
       title: "OCR for Insights",
       href: "https://github.com/AdwaitSalankar/OCR-of-Bank-Statements",
