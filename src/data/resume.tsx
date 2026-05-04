@@ -8,7 +8,7 @@ export const DATA = {
   location: "Nagpur, MH, IN",
   locationLink: "https://www.google.com/maps/place/nagpur",
   description:
-    "I am a pre-final year Computer Science (Data Science) student, passionate about Software Development and Machine Learning.",
+    "I am a final year Computer Science (Data Science) student, passionate about Software Development and Machine Learning.",
   summary:
     "Tech Enthusiast with expertise in **Java**, **Python**, **AI/ML**, **Data Structures** & **Algorithms**. Currently, I am pursuing a degree in **Computer Science**, and freelanced at few startups at **Bangalore** and **Singapore**. I enjoy building innovative solutions and tackling real-world problems. I have Contest Rating of **1629** at **Leetcode** and **2 star** at **Codechef**. I am **AWS [Certified](https://cp.certmetrics.com/amazon/en/public/verify/credential/2926bbb0fc834b8796fffda1a99ad03a) Cloud Practitioner** in July 2025. Apart from coding, I'm a pro footballer and a passionate canvas painter. Get my resume [here](https://drive.google.com/drive/folders/15ojwIkj0H8xJLS9IUMQe6Lk0zd9BxCG0?usp=drive_link).",
   avatarUrl: "/me.JPG",
